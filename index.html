@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<script>
+  var p = new URLSearchParams(location.search);
+  var term = p.get("q") || "";
+  location.replace("https://hiztegiak.elhuyar.eus/es_eu/" + encodeURIComponent(term));
+</script>
